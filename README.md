@@ -20,7 +20,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
  - ```https://2023-br-hacks-project.vercel.app/api/copywriter``` POST enpoint that uses AI to write advertisements
  - ```https://2023-br-hacks-project.vercel.app/api/discord-bio``` POST enpoint that uses AI to write discord bios
  - ```https://2023-br-hacks-project.vercel.app/api/email-writer``` POST enpoint that uses AI to write emails
- - ```https://2023-br-hacks-project.vercel.appapi/summarizer``` POST enpoint that uses AI to write summaries of passages
+ - ```https://2023-br-hacks-project.vercel.app/api/summarizer``` POST enpoint that uses AI to write summaries of passages
  - ```https://2023-br-hacks-project.vercel.app/api/regex-writer``` POST enpoint that uses AI to write regex expressions
  - ```https://2023-br-hacks-project.vercel.app/api/shell-writer``` POST enpoint that uses AI to write shell scripts
  - ```https://2023-br-hacks-project.vercel.app/api/code-vulnerability``` POST enpoint that uses AI to find vulnerabilities in code
