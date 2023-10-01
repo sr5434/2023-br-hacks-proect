@@ -24,7 +24,11 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
  - ```https://2023-br-hacks-project.vercel.app/api/regex-writer``` POST enpoint that uses AI to write regex expressions
  - ```https://2023-br-hacks-project.vercel.app/api/shell-writer``` POST enpoint that uses AI to write shell scripts
  - ```https://2023-br-hacks-project.vercel.app/api/code-vulnerability``` POST enpoint that uses AI to find vulnerabilities in code
- - ```https://2023-br-hacks-project.vercel.app/api/test-writer``` POST enpoint that uses AI to find vulnerabilities in code
- Input data format: ```{"prompt": "Your prompt"}```
+ - ```https://2023-br-hacks-project.vercel.app/api/test-writer``` POST enpoint that uses AI to generate tests for code
+ - ```https://2023-br-hacks-project.vercel.app/api/pseudonym-maker``` POST enpoint that uses AI to generate a pseudonym based on a prompt (you can detail the language of origin, number of middle names, etc.)
+ - ```https://2023-br-hacks-project.vercel.app/api/companyname-maker``` POST enpoint that uses AI to generate a name for a company
+ - ```https://2023-br-hacks-project.vercel.app/api/tagline-writer``` POST enpoint that uses AI to write a business tagline
+
+Input data format: ```{"prompt": "Your prompt"}```
  
 Example curl command: ```curl -X POST https://2023-br-hacks-project.vercel.app/api/regex-writer -d '{"prompt":"Check for vallid phone numbers"}'```
