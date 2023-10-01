@@ -25,4 +25,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
  - ```https://2023-br-hacks-project.vercel.app/api/shell-writer``` POST enpoint that uses AI to write shell scripts
  Input data format: ```{"prompt": "Your prompt"}```
  
-Example curl command: ```curl -X POST localhost:3000/api/regex-writer -d '{"prompt":"Check for vallid phone numbers"}'```
+Example curl command: ```curl -X POST https://2023-br-hacks-project.vercel.app/api/regex-writer -d '{"prompt":"Check for vallid phone numbers"}'```
