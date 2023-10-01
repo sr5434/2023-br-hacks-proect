@@ -22,5 +22,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
  - ```http://localhost:3000/api/email-writer``` POST enpoint that uses AI to write emails
  - ```http://localhost:3000/api/summarizer``` POST enpoint that uses AI to write summaries of passages
  - ```http://localhost:3000/api/regex-writer``` POST enpoint that uses AI to write regex expressions
+  - ```http://localhost:3000/api/shell-writer``` POST enpoint that uses AI to write shell scripts
  Input data format: ```{"prompt": "Your prompt"}```
  Example curl command: ```curl -X POST localhost:3000/api/regex-writer -d '{"prompt":"Check for vallid phone numbers"}'```
