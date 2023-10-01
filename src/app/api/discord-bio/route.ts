@@ -18,7 +18,7 @@ export async function POST(req: Request) {
     messages: [
       {
         role: 'user',
-        content: `Write an email based on this prompt : ${prompt}`,
+        content: `Write a Discord bio based on this prompt : ${prompt}`,
       },
     ],
   });
